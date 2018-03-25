@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEW.W.2018.Masarnouski.03", "NEW.W.2018.Masarnouski.03\NEW.W.2018.Masarnouski.03.csproj", "{FDF9C601-9401-4C80-8C2C-D768A0403429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEW.W.2018.Masarnouski.03.Tests", "NEW.W.2018.Masarnouski.03.Tests\NEW.W.2018.Masarnouski.03.Tests.csproj", "{E61CA46F-E668-443D-82E6-3D5A342923E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF9C601-9401-4C80-8C2C-D768A0403429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF9C601-9401-4C80-8C2C-D768A0403429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF9C601-9401-4C80-8C2C-D768A0403429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF9C601-9401-4C80-8C2C-D768A0403429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61CA46F-E668-443D-82E6-3D5A342923E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61CA46F-E668-443D-82E6-3D5A342923E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61CA46F-E668-443D-82E6-3D5A342923E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61CA46F-E668-443D-82E6-3D5A342923E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB2C050-0172-4517-B32C-F5A523EB00BD}
+	EndGlobalSection
+EndGlobal
