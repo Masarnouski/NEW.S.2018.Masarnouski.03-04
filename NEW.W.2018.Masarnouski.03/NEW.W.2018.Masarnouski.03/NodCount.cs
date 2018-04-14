@@ -86,6 +86,7 @@ namespace NEW.W._2018.Masarnouski._03
             time = stopWatch.Elapsed;
             return result;
         }
+
         #region Private Methods
         private static int Evklid(int number1, int number2)
         {
@@ -140,6 +141,16 @@ namespace NEW.W._2018.Masarnouski._03
             if (number1 > number2)
                 return Stein((number1 - number2) >> 1, number2);
             return Stein((number2 - number1) >> 1, number1);
+        }
+    
+        private static int GetTime(out TimeSpan time, Func<int> algorithm)
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+            int result = algorithm();
+            stopWatch.Stop();
+            time = stopWatch.Elapsed;
+            return result;
         }
     }
 }

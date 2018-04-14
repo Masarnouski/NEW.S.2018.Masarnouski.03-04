@@ -13,6 +13,7 @@ namespace NEW.W._2018.Masarnouski._03
     {
         static void Main(string[] args)
         {
+       
         }
     }
 }
